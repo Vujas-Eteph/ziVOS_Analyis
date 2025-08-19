@@ -19,9 +19,7 @@ Some scripts are dedicated to visualizations, while others focus on statistics.
 
 Here are some app made with streamlit for this project and accessible under the folder apps
 
-```app_entropy_performance_analysis.py```
-
-
-
-```app_video_server.py```
+Video:
+- [```app_entropy_performance_analysis.py```](https://github.com/Vujas-Eteph/ziVOS_Analyis/blob/main/assets/video_1.webm)
+- [```app_video_server.py```](https://github.com/Vujas-Eteph/ziVOS_Analyis/blob/main/assets/video_2.webm)
 
