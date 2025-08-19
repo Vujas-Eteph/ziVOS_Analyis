@@ -1,0 +1,26 @@
+# Collection of paths for the predictions and intermediate results (e.g., Entropy, standard deviation, other..).
+
+# Adjust the paths based on your configuration.
+# If your dataset structure follows the conventions described in this repository, no changes are needed.
+
+# - RESULTS CONFIGURATION ---
+
+results:
+  # method_X: # custom method
+  #   prediction_directory: '../directory/to/the/predictions/of/method_X'
+  #   intermediate_directory: '../directory/to/intermediate/results/for/method_X'
+
+  XMem:
+  # Unmodified XMem - just storing the softmax output
+    prediction_directory: '../output_results/Single_Models/UXMem'
+    intermediate_directory: '../intermediate/Single_Models/UXMem'
+    iou_entropy_analysis_directory: '../intermediate/iou_entropy_analysis_HUB/Single_Models'
+    plot_hub: '../plot_hub/Single_Models/UXMem'
+    svos_benchmark_directory: '../benchmark_results/'
+
+  QDMN:
+    prediction_directory: '/home/user_id/WORK_Station/VOS/UVOS/QDMN/QDMN_output'
+    intermediate_directory: '../intermediate/iVOTS_benchmark/GT_mask/QDMN'
+    iou_entropy_analysis_directory: '../intermediate/iVOTS_benchmark/GT_mask/iou_entropy_analysis_HUB/'
+    svos_benchmark_directory: '../benchmark_results/iVOTS_benchmark/GT_mask/'
+    QAM_directory: '/home/user_id/WORK_Station/VOS/UVOS/QDMN/QAM_output'

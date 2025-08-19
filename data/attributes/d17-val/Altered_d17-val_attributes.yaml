@@ -1,0 +1,432 @@
+# Found here ! https://github.com/fperazzi/davis-2017/blob/main/data/db_info.yaml -- was well hidden ...
+attributes: [AC, BC, CS, DB, DEF, EA, FM, HO, IO, LR, MB, OV, SC, SV, POCC, FOCC, COCC, VLR, DIS, ROT]
+sets:  [train, val, val-dev]
+years: [2016, 2017]
+
+sequences:
+- name: bike-packing_1
+  attributes: [ROT, COCC, IO, MB, DEF]
+  num_frames: 69
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: bike-packing_2
+  attributes: [POCC, COCC, IO, DEF]
+  num_frames: 69
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: blackswan_1
+  attributes: []
+  num_frames: 50
+  set: val
+  eval_t: True
+  year: 2016
+
+- name: bmx-trees_1
+  attributes: [LR, SV, SC, FM, CS, IO, MB, DEF, POCC, HO, EA, BC]
+  num_frames: 80
+  set: val
+  eval_t: False
+  year: 2016
+
+- name: bmx-trees_2
+  attributes: [LR, SV, FM, CS, IO, MB, DEF, POCC, FOCC, HO, EA, BC]
+  num_frames: 80
+  set: val
+  eval_t: False
+  year: 2016
+
+- name: breakdance_1
+  attributes: [FM, DB, MB, DEF, HO, ROT, OV, AC]
+  num_frames: 84
+  set: val
+  eval_t: False
+  year: 2016
+
+- name: camel_1
+  attributes: [CS, IO, DEF, ROT, DIS]
+  num_frames: 90
+  set: val
+  eval_t: True
+  year: 2016
+
+- name: car-roundabout_1
+  attributes: [ROT, BC]
+  num_frames: 75
+  set: val
+  eval_t: True
+  year: 2016
+
+- name: car-shadow_1
+  attributes: [LR, EA, AC, BC]
+  num_frames: 40
+  set: val
+  eval_t: True
+  year: 2016
+
+- name: cows_1
+  attributes: [CS, IO, DEF, POCC, HO]
+  num_frames: 104
+  set: val
+  eval_t: True
+  year: 2016
+
+- name: dance-twirl_1
+  attributes: [SC, CS, IO, MB, DEF, HO, ROT, OV]
+  num_frames: 90
+  set: val
+  eval_t: False
+  year: 2016
+
+- name: dog_1
+  attributes: [FM, CS, MB, DEF, ROT, EA]
+  num_frames: 60
+  set: val
+  eval_t: False
+  year: 2016
+
+- name: dogs-jump_1
+  attributes: [POCC, FOCC, COCC, LR, DIS, DEF, FM, MB, SV, OV, ROT]
+  num_frames: 66
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: dogs-jump_2
+  attributes: [DEF, SV, ROT, DIS, OV, FM, MB, LR]
+  num_frames: 66
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: dogs-jump_3
+  attributes: [POCC, COCC]
+  num_frames: 66
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: drift-chicane_1
+  attributes: [LR, SV, FM, DB, HO, ROT, EA, AC]
+  num_frames: 52
+  set: val
+  eval_t: False
+  year: 2016
+
+- name: drift-straight_1
+  attributes: [LR, SV, FM, CS, MB, HO, ROT, EA, OV, AC]
+  num_frames: 50
+  set: val
+  eval_t: True
+  year: 2016
+
+- name: goat_1
+  attributes: [CS, DEF, EA, BC]
+  num_frames: 90
+  set: val
+  eval_t: False
+  year: 2016
+
+- name: gold-fish_1
+  attributes: [DEF, CS, SC, POCC, COCC, MB, DIS, HO, ROT]
+  num_frames: 78
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: gold-fish_2
+  attributes: [DEF, CS, SC, POCC, COCC, MB, DIS, HO, ROT]
+  num_frames: 78
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: gold-fish_3
+  attributes: [DEF, CS, SC, COCC, MB, DIS, HO]
+  num_frames: 78
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: gold-fish_4
+  attributes: [DEF, CS, SC, POCC, COCC, MB, DIS, HO]
+  num_frames: 78
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: gold-fish_5
+  attributes: [DEF, CS, SC, POCC, COCC, MB, DIS, HO, OV]
+  num_frames: 78
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: horsejump-high_1
+  attributes: [SC, IO, DEF, POCC, HO, COCC]
+  num_frames: 50
+  set: val
+  eval_t: False
+  year: 2016
+
+- name: horsejump-high_2
+  attributes: [SC, IO, POCC, HO, COCC]
+  num_frames: 50
+  set: val
+  eval_t: False
+  year: 2016
+
+- name: india_1
+  attributes: [CS, DEF, DIS, DB, BC, IO, SV, POCC, FOCC]
+  num_frames: 81
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: india_2
+  attributes: [CS, DEF, DIS, DB, BC, IO, SV, POCC, FOCC]
+  num_frames: 81
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: india_3
+  attributes: [CS, DEF, DIS, DB, BC, IO, SV, POCC, FOCC, COCC]
+  num_frames: 81
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: judo_1
+  attributes: [DIS, MB, POCC, COCC, DEF, IO]
+  num_frames: 34
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: judo_2
+  attributes: [DIS, MB, POCC, COCC, FM, DEF, IO, SC]
+  num_frames: 34
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: kite-surf_1
+  attributes: [SV, SC, IO, DB, MB, POCC, COCC, HO, EA]
+  num_frames: 50
+  set: val
+  eval_t: True
+  year: 2016
+
+- name: kite-surf_2
+  attributes: [SV, SC, IO, DB, MB, POCC, FOCC, COCC, HO, EA, VLR]
+  num_frames: 50
+  set: val
+  eval_t: True
+  year: 2016
+
+- name: kite-surf_3
+  attributes: [SV, SC, IO, DB, MB, POCC, COCC, HO]
+  num_frames: 50
+  set: val
+  eval_t: True
+  year: 2016
+
+- name: lab-coat_1
+  attributes: [SV, VLR, EA, IO, CS, POCC, COCC, FOCC, SC, LR]
+  num_frames: 47
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: lab-coat_2
+  attributes: [SV, VLR, EA, IO, CS, POCC, COCC, FOCC, SC, LR]
+  num_frames: 47
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: lab-coat_3
+  attributes: [SV, CS, OV, DIS]
+  num_frames: 47
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: lab-coat_4
+  attributes: [SV, CS, OV, DIS]
+  num_frames: 47
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: lab-coat_5
+  attributes: [SV, CS, OV, POCC, COCC, DIS]
+  num_frames: 47
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: libby_1
+  attributes: [SC, MB, DEF, POCC, HO, EA]
+  num_frames: 49
+  set: val
+  eval_t: False
+  year: 2016
+
+- name: loading_1
+  attributes: [ROT, CS, SC, POCC, COCC, DEF, MB, EA, IO]
+  num_frames: 50
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: loading_2
+  attributes: [ROT, CS, SC, POCC, COCC, MB, EA, IO]
+  num_frames: 50
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: loading_3
+  attributes: [ROT, CS, SC, POCC, COCC, DEF, MB, EA]
+  num_frames: 50
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: mbike-trick_1
+  attributes: [CS, ROT, POCC, COCC, DEF, LR, IO, SV, MB, OV, SC]
+  num_frames: 79
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: mbike-trick_2
+  attributes: [CS, ROT, POCC, COCC, LR, IO, SV, MB, SC]
+  num_frames: 79
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: motocross-jump_1
+  attributes: [SV, SC, FM, IO, MB, DEF, HO, ROT, EA, OV, AC, POCC, COCC]
+  num_frames: 40
+  set: val
+  eval_t: False
+  year: 2016
+
+- name: motocross-jump_2
+  attributes: [SV, SC, FM, IO, MB, HO, ROT, EA, OV, AC, POCC, COCC]
+  num_frames: 40
+  set: val
+  eval_t: False
+  year: 2016
+
+- name: paragliding-launch_1
+  attributes: [SC, SV, IO, HO, DEF, POCC, EA, CS]
+  num_frames: 70
+  set: train
+  eval_t: False
+  year: 2016
+
+- name: paragliding-launch_2
+  attributes: [SC, SV, IO, HO, POCC, COCC, DEF, CS]
+  num_frames: 70
+  set: train
+  eval_t: False
+  year: 2016
+
+- name: paragliding-launch_3
+  attributes: [SC, IO, HO, EA, POCC, COCC]
+  num_frames: 70
+  set: train
+  eval_t: False
+  year: 2016
+
+- name: parkour_1
+  attributes: [LR, SV, FM, DEF, POCC, HO, ROT, AC]
+  num_frames: 100
+  set: val
+  eval_t: False
+  year: 2016
+
+- name: pigs_1
+  attributes: [OV, CS, DEF, IO, ROT, POCC, COCC, DIS, EA]
+  num_frames: 79
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: pigs_2
+  attributes: [SC, CS, DEF, IO, POCC, COCC, FOCC, DIS, EA]
+  num_frames: 79
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: pigs_3
+  attributes: [SC, CS, DEF, IO, POCC, COCC, FOCC, DIS, EA]
+  num_frames: 79
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: scooter-black_1
+  attributes: [SV, IO, HO, EA, SC, ROT, MB, CS, FM, POCC, COCC]
+  num_frames: 43
+  set: val
+  eval_t: True
+  year: 2016
+
+- name: scooter-black_2
+  attributes: [SV, IO, HO, EA, SC, ROT, MB, CS, FM, POCC, COCC]
+  num_frames: 43
+  set: val
+  eval_t: True
+  year: 2016
+
+- name: shooting_1
+  attributes: [ROT, SC, CS, DB, AC, POCC, COCC, MB, FM, OV, IO]
+  num_frames: 40
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: shooting_2
+  attributes: [ROT, CS, DB, AC, POCC, COCC, MB, FM, OV, IO]
+  num_frames: 40
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: shooting_3
+  attributes: [ROT, SC, CS, DB, AC, POCC, COCC, MB, FM, OV, IO]
+  num_frames: 40
+  set: val
+  eval_t: False
+  year: 2017
+
+- name: soapbox_1
+  attributes: [SV, IO, MB, DEF, HO, ROT, AC, SC, EA, POCC, COCC]
+  num_frames: 99
+  set: val
+  eval_t: True
+  year: 2016
+
+- name: soapbox_2
+  attributes: [SV, IO, MB, DEF, HO, ROT, AC, SC, EA, POCC, COCC]
+  num_frames: 99
+  set: val
+  eval_t: True
+  year: 2016
+
+- name: soapbox_3
+  attributes: [SV, IO, MB, DEF, HO, ROT, AC, SC, EA, POCC, COCC]
+  num_frames: 99
+  set: val
+  eval_t: True
+  year: 2016

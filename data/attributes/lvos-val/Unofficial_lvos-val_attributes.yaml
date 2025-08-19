@@ -1,0 +1,397 @@
+# No official file for listing the attributes for lvos: https://github.com/LingyiHongfd/LVOS/issues/5
+attributes: [AC, BC, CS, DB, DEF, EA, FM, HO, IO, LR, MB, OV, SC, SV, POCC, FOCC, COCC, VLR, DIS, ROT, CAM, PCAM, TS]
+sets:  [val]
+years: [2023]
+
+sequences:
+- name: 0tCWPOrc_1
+  attributes: [SV, HO, CS, ROT, POCC, COCC, OCC, OV, LR, IO, FM]
+  num_frames: 298
+  set: val
+  year: 2023
+
+- name: 0tCWPOrc_2
+  attributes: [SV, HO, CS, ROT, COCC, OV, LR, IO, FM, IO, SC]
+  num_frames: 298
+  set: val
+  year: 2023
+
+- name: 3nsHQkEK_1
+  attributes: [LR, FM, MB, OCC, POCC, FOCC, VLR, DIS, HO]
+  num_frames: 326
+  set: val
+  year: 2023
+
+- name: 3Zf4NFzn_1
+  attributes: [LR, VLR, DIS, POCC, OCC, VLR, HO, ROT, EA, SV, FM, CS, SC]
+  num_frames: 594
+  set: val
+  year: 2023
+
+- name: 48f9Llhg_1
+  attributes: [ROT, FM, POCC, FOCC, OCC, SC, DB, DIS, MB, CS, SV, DEF, PCAM]
+  num_frames: 784
+  set: val
+  year: 2023
+
+- name: 49TNsJzk_1
+  attributes: [CS, OV, POCC, DIS, OCC, DEF, ROT, SC, FM, FOCC, MB, CAM, DB]
+  num_frames: 579
+  set: val
+  year: 2023
+
+- name: 7Bc0R5aJ_1
+  attributes: [LR, FM, MB, OCC, POCC, FOCC, VLR, DIS, HO]
+  num_frames: 1455
+  set: val
+  year: 2023
+
+- name: 7K7WVzGG_1
+  attributes: [ROT, SV, IO, DEF, LR, SC, DIS, COCC, HO, FM]
+  num_frames: 616
+  set: val
+  year: 2023
+
+- name: 7K7WVzGG_2
+  attributes: [ROT, SV, IO, DEF, LR, SC, DIS, COCC, HO, FM, OV, VLR, POCC, COCC, OCC]
+  num_frames: 616
+  set: val
+  year: 2023
+
+- name: 7K7WVzGG_3
+  attributes: [VLR, OV, LR, DEF, CS, FM, ROT]
+  num_frames: 616
+  set: val
+  year: 2023
+
+- name: 8lxxCA5h_1
+  attributes: [CS, SV, LR, VLR, POCC, DEF, SC, POCC, OCC, FOCC, FM, DB, ROT]
+  num_frames: 334
+  set: val
+  year: 2023
+
+- name: 8MfWMkrt_1
+  attributes: [DEF, DIS, ROT, CAM, PCAM, POCC, OCC, FOCC, SC, DB, CS, Fm, BC, OV, MB]
+  num_frames: 419
+  set: val
+  year: 2023
+
+- name: 9mBuSvT2_1
+  attributes: [CS, DB, DIS, LR, DEF, PCAM, CAM, POCC, FOCC, OCC, SC, MB, FM, BC, ROT]
+  num_frames: 334
+  set: val
+  year: 2023
+
+- name: aFytsETk_1
+  attributes: [DIS, POCC, OCC, FOCC, OV, ROT, CS, MB, FM]
+  num_frames: 276
+  set: val
+  year: 2023
+
+- name: aT6JIUVU_1
+  attributes: [LR, VLR, DIS, DB, FM, SV, CS, PCAM, CAM, BC, POCC, OCC, FOCC, ROT]
+  num_frames: 356
+  set: val
+  year: 2023
+
+- name: bl6VuRYE_1
+  attributes: [DEF, CS, SC, ROT, POCC, FOCC, OCC, PCAM, FM, MB, DIS, BC, CB]
+  num_frames: 455
+  set: val
+  year: 2023
+
+- name: cjD5WPSv_1
+  attributes: [OV, CS, DB, POCC, PCAM, FOCC, OCC, CAM, DEF, SC, ROT]
+  num_frames: 295
+  set: val
+  year: 2023
+
+- name: cUD1dwuP_1
+  attributes: [OV, SC, CS, FM, COCC, SV, DEF, MB, POCC, OCC, FOCC, IO, TS, ROT]
+  num_frames: 792
+  set: val
+  year: 2023
+
+- name: cUD1dwuP_2
+  attributes: [OV, SC, CS, FM, COCC, SV, DEF, MB, POCC, OCC, FOCC, IO, TS, ROT]
+  num_frames: 792
+  set: val
+  year: 2023
+
+- name: cUD1dwuP_3
+  attributes: [OV, SC, CS, FM, COCC, SV, DEF, MB, POCC, OCC, FOCC, IO, TS, ROT]
+  num_frames: 792
+  set: val
+  year: 2023
+
+- name: cUD1dwuP_4
+  attributes: [OV, SC, CS, FM, DEF, MB, POCC, OCC, FOCC, IO, TS] 
+  num_frames: 792
+  set: val
+  year: 2023
+
+- name: D4AgqLQL_1
+  attributes: [DIS, LR, CS, DB, POCC, FM, BC, PCAM, DIS, SV, OV, MB]
+  num_frames: 243
+  set: val
+  year: 2023
+
+- name: d83wYdy0_1
+  attributes: [OV, LR, VLR, SV, FM, DIS]
+  num_frames: 243
+  set: val
+  year: 2023
+
+- name: dtHbJvYy_1
+  attributes: [DEF, POCC, DIS, ROT, CS, CAM, OCC, SV, LR, EA, BC, DB]
+  num_frames: 703
+  set: val
+  year: 2023
+
+- name: EWCZAcdt_1
+  attributes: [CS, LR, IO, OV, POCC, FOCC, OCC, ROT, FM, DEF, SC, HO, DIS, COCC]
+  num_frames: 1411
+  set: val
+  year: 2023
+
+- name: EWCZAcdt_2
+  attributes: [CS, LR, VLR, IO, OV, POCC, FOCC, OCC, ROT, FM, SC, HO, BC, COCC]
+  num_frames: 1411
+  set: val
+  year: 2023
+
+- name: f4DjwV55_1
+  attributes: [FM, MB, OCC, POCC, FOCC, DEF, CS, SC, DIS, ROT, OV, SV, DB]
+  num_frames: 306
+  set: val
+  year: 2023
+
+- name: FFMl5yqs_1
+  attributes: [CS, SV, MB, FM, ROT, LR, POCC, OCC]
+  num_frames: 267
+  set: val
+  year: 2023
+
+- name: FiRTBMg2_1
+  attributes: [DEF, POCC, COCC, OCC, DB, FOCC, DIS, ROT, FM, MB, CAM, PCAM]
+  num_frames: 243
+  set: val
+  year: 2023
+
+- name: FiRTBMg2_2
+  attributes: [DEF, POCC, COCC, OCC, DB, FOCC, DIS, ROT, FM, MB, CAM, PCAM]
+  num_frames: 243
+  set: val
+  year: 2023
+ 
+- name: gdqCcvs2_1
+  attributes: [VLR, LR, POCC, OCC, FOCC; FM, MB, CS, DB, SV]
+  num_frames: 456
+  set: val
+  year: 2023
+
+- name: Gy1gwYZD_1
+  attributes: [LR, FM, MB, DIS, DB, CS, POCC, OCC, FOCC, SV, OV, AC]
+  num_frames: 370
+  set: val
+  year: 2023
+
+- name: HNrCxhwd_1
+  attributes: [VLR, LR, FM, MB, POCC, FOCC, OCC]
+  num_frames: 1439
+  set: val
+  year: 2023
+
+- name: ikcMMycg_1
+  attributes: [CS, POCC, OCC, FOCC, FM, OV, DB, MB, ROT, DIS]
+  num_frames: 899
+  set: val
+  year: 2023
+
+- name: JGG6MrhF_1
+  attributes: [DIS, DB, DEF, CS, FM, POCC, OCC, SC, EA]
+  num_frames: 453
+  set: val
+  year: 2023
+
+- name: K3OUeINk_1
+  attributes: [VLR, LR, POCC, CS, SC, SV, FM, MB, FOCC, OCC, DB]
+  num_frames: 649
+  set: val
+  year: 2023
+
+- name: KfcCU1ma_1
+  attributes: [DIS, FM, LR, CS]
+  num_frames: 850
+  set: val
+  year: 2023
+
+- name: KfcCU1ma_2
+  attributes: [DIS, FM, LR, CS]
+  num_frames: 850
+  set: val
+  year: 2023
+
+- name: kozmQMck_1
+  attributes: [CS, SC, DEF, PCAM, CAM, POCC, FOCC, OCC, DIS, DB, SV]
+  num_frames: 231
+  set: val
+  year: 2023
+
+- name: KPDIQo5u_1
+  attributes: [LR, POCC, OCC, COCC, DIS, VLR, SC, DEF, AC, FOCC, FM, ROT]
+  num_frames: 1105
+  set: val
+  year: 2023
+
+- name: KPDIQo5u_2
+  attributes: [LR, POCC, OCC, COCC, DIS, VLR, SC, DEF, AC, FOCC, FM, ROT]
+  num_frames: 1105
+  set: val
+  year: 2023
+
+- name: KPDIQo5u_3
+  attributes: [LR, POCC, OCC, COCC, DIS, VLR, SC, DEF, FOCC, FM, ROT]
+  num_frames: 1105
+  set: val
+  year: 2023
+
+- name: MKnlVo6x_1
+  attributes: [DIS, FM, SV, CS, ROT, DEF, SC, POCC, MB, OCC, EA, OV, DB]
+  num_frames: 702
+  set: val
+  year: 2023
+
+- name: N6CONZUW_1
+  attributes: [CS, FM, SV, DIS, ROT, DB, EA, MB, OV, POCC, OCC, FOCC, DEF, SC, CAM]
+  num_frames: 1087
+  set: val
+  year: 2023
+
+- name: NFbsxmYE_1
+  attributes: [DIS, OV, ROT, POCC, LR, EA, OCC, CS, DEF, SC, DB]
+  num_frames: 806
+  set: val
+  year: 2023
+
+- name: nfcT3o_1
+  attributes: [OV, DB, DIS, EA, DEF, SC, CS, SV, LR, AC]
+  num_frames: 1120
+  set: val
+  year: 2023
+
+- name: pMntJwSQ_1
+  attributes: [FM, VLR, LR, POCC, OCC, FOCC, CS, DB, OV]
+  num_frames: 499 
+  set: val
+  year: 2023
+
+- name: q1MSEBkh_1
+  attributes: [FOCC, POCC, OCC, CS, DIS, DB, FM, MB]
+  num_frames: 385
+  set: val
+  year: 2023
+
+- name: Q3kk9fuH_1
+  attributes: [CS, MB, FM, VLR, LR, POCC, FOCC, OCC, SV, DB]
+  num_frames: 1115
+  set: val
+  year: 2023
+
+- name: raql9H7f_1
+  attributes: [CS, FOCC, POCC, OCC, LR, VLR, DEF, SC, COCC, DISS, FM]
+  num_frames: 536
+  set: val
+  year: 2023
+
+- name: raql9H7f_2
+  attributes: [CS, FOCC, POCC, OCC, LR, VLR, DEF, SC, COCC, DISS, FM]
+  num_frames: 536
+  set: val
+  year: 2023
+
+- name: raql9H7f_3
+  attributes: [CS, FOCC, POCC, OCC, LR, VLR, DEF, SC, DISS, FM]
+  num_frames: 536
+  set: val
+  year: 2023
+
+- name: rUaDdVmD_1
+  attributes: [CS, POCC, OCC, ROT, FM, LR, VLR, SV, OV]
+  num_frames: 380
+  set: val
+  year: 2023
+
+- name: ScFTYisJ_1
+  attributes: [CS, DEF, SC, DIS, OV, FM, MB, POCC, FOCC, ROT, OCC, EA, SV, LR]
+  num_frames: 532
+  set: val
+  year: 2023
+
+- name: v3uNUctx_1
+  attributes: [POCC, OCC, EA, DEF, OV, DB, ROT, CS]
+  num_frames: 824
+  set: val
+  year: 2023
+
+- name: Vh9NwLSn_1
+  attributes: [CS; POCC, OCC, SC, AC, FM, LR, IO, VLR, ROT, SV]
+  num_frames: 715
+  set: val
+  year: 2023
+
+- name: VhwRKgVS_1
+  attributes: [POCC, COCC, LR, SV, ROT, OV, CS, FM, FOCC, VLR, OCC]
+  num_frames: 1523
+  set: val
+  year: 2023
+
+- name: VhwRKgVS_2
+  attributes: [POCC, LR, COCC, CS, VLR, DEF, FOCC, OCC, FM, SV, ROT]
+  num_frames: 1523
+  set: val
+  year: 2023
+
+- name: vJ8W2TO5_1
+  attributes: [DIS, DEF, SC, CS, PCAM, SV, CAM, FOCC, POCC, OCC, HO]
+  num_frames: 458
+  set: val
+  year: 2023
+
+- name: vjG0jbkQ_1
+  attributes: [POCC, OCC, COCC, DEF, ROT, SC, DB, FM, IO, OV]
+  num_frames: 1013
+  set: val
+  year: 2023
+
+- name: vjG0jbkQ_2
+  attributes: [POCC, OCC, FOCC, COCC, DEF, ROT, SC, DB, DIS, FM, IO, OV]
+  num_frames: 1013
+  set: val
+  year: 2023
+
+- name: x3nD3QQ9_1
+  attributes: [VLR, LR, OCC, POCC, DB, CS, SV]
+  num_frames: 596
+  set: val
+  year: 2023
+
+- name: X5U0z8VI_1
+  attributes: [POCC, OCC, DB, PCAM, ROT, SC, HO]
+  num_frames: 394
+  set: val
+  year: 2023
+
+- name: xpI7xRWN_1
+  attributes: [VLR, LR, RB, FM, POCC, OCC, AC, DB]
+  num_frames: 248
+  set: val
+  year: 2023
+
+- name: yExgitit_1
+  attributes: [FM, CS, SV, DIS, POCC, FOCC, OCC, ROT, DEF, OV, DB]
+  num_frames: 262
+  set: val
+  year: 2023
+
+

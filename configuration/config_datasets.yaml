@@ -1,0 +1,62 @@
+# Collection of paths to the datasets.
+
+# Adjust the paths based on your configuration. 
+# If your dataset structure follows the conventions described in this repository, no changes are needed.
+
+# - DATASETS CONFIGURATION ---
+datasets:
+  # dataset_X: # custom dataset
+  #   image_directory: '../directory/to/your/custom/dataset_X/Images'
+  #   mask_directory: '../directory/to/your/custom/dataset_X/Annotations'
+
+  # d16-val:
+  #   image_directory: '../datasets/DAVIS/2016/JPEGImages/480p'
+  #   mask_directory: '../datasets/DAVIS/2016/Annotations/480p'
+  
+  d17-val:
+    image_directory: '../datasets/DAVIS/2017/trainval/JPEGImages/480p'
+    mask_directory: '../datasets/DAVIS/2017/trainval/Annotations/480p'
+  
+  # d17-test:
+  #   image_directory: '../datasets/DAVIS/2017/test-dev/JPEGImages/480p'
+  #   mask_directory: '../datasets/DAVIS/2017/test-dev/Annotations/480p'
+  
+  # y18-val:
+  #   image_directory: '../datasets/YouTube2018/all_frames/valid_all_frames/JPEGImages'
+  #   mask_directory: '../datasets/YouTube2018/valid/Annotations'
+  
+  # y19-val:
+  #   image_directory: '../datasets/YouTube/all_frames/valid_all_frames/JPEGImages'
+  #   mask_directory: '../datasets/YouTube/valid/Annotations'
+  
+  # mose-val:
+  #   image_directory: '../datasets/MOSE/valid/JPEGImages'
+  #   mask_directory: '../datasets/MOSE/valid/Annotations'
+  
+  # burst-val:
+  #   skip_frames: -1
+  #   image_directory: '../datasets/BURST/frames/val'
+  #   json_directory: '../datasets/BURST/val/first_frame_annotations.json'
+  
+  # burst-test:
+  #   skip_frames: -1
+  #   image_directory: '../datasets/BURST/frames/test'
+  #   json_directory: '../datasets/BURST/test/first_frame_annotations.json'
+  
+  lvos-val:
+    image_directory: '../datasets/LVOS/valid/JPEGImages'
+    mask_directory: '../datasets/LVOS/valid/Annotations'
+  
+  # lvos-test:
+  #   image_directory: '../datasets/LVOS/test/JPEGImages'
+  #   mask_directory: '../datasets/LVOS/test/Annotations'
+  
+  # lv1:
+  #   image_directory: '../datasets/LV1/long_video/JPEGImages'
+  #   mask_directory: '../datasets/LV1/long_video/Annotations'
+  #   subset: '../datasets/LV1/long_video/ImageSets/2017/val.txt'
+  
+  # puma:
+  #   image_directory: '../datasets/PuMaVOS/JPEGImages'
+  #   mask_directory: '../datasets/PuMaVOS/Annotations'
+
