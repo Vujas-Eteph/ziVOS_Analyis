@@ -8,8 +8,8 @@ Some scripts are dedicated to visualizations, while others focus on statistics.
 > [!TIP]
 > I've also provided some new attributes to the d17 validation set and the LVOS validation set.
 > For the DAVIS version, I just added attributes to the 2017, which were not available, and complemented them with 3 new additional attributes
-> Concerning LVOS, I've made them from scratch, as they were never released at the time when I needed them, so this is an unofficial version of them.
-Although I did not manage to finish the analysis per attributes in the end.
+> Concerning LVOS, I've made them from scratch, as they were never released at the time when I needed them, so this is an unofficial version of them. The official version can be found in this issue: [https://github.com/LingyiHongfd/LVOS/issues/5](https://github.com/LingyiHongfd/LVOS/issues/5)
+> Although I did not manage to finish the analysis per attributes in the end.
 
 
 > [!NOTE] 
